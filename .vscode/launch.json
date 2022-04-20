@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch OutputFormatter",
+            "request": "launch",
+            "mainClass": "OutputFormatter",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch inputs",
+            "request": "launch",
+            "mainClass": "inputs",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConcatenatedSum",
+            "request": "launch",
+            "mainClass": "ConcatenatedSum",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdjacentSum",
+            "request": "launch",
+            "mainClass": "AdjacentSum",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckEven",
+            "request": "launch",
+            "mainClass": "CheckEven",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subset",
+            "request": "launch",
+            "mainClass": "Subset",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckFactor",
+            "request": "launch",
+            "mainClass": "CheckFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckFactor",
+            "request": "launch",
+            "mainClass": "Hello.src.CheckFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "java_89716e83"
+        }
+    ]
+}
