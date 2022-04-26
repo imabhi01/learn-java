@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EOF",
+            "request": "launch",
+            "mainClass": "EOF",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch allvaluessame",
+            "request": "launch",
+            "mainClass": "maharishi.Solutions.allvaluessame",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch allpossibilities",
+            "request": "launch",
+            "mainClass": "maharishi.Solutions.allpossibilities",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPrimeOrNot",
+            "request": "launch",
+            "mainClass": "CheckPrimeOrNot",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewPrime",
+            "request": "launch",
+            "mainClass": "NewPrime",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestPrimeFactor",
+            "request": "launch",
+            "mainClass": "LargestPrimeFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestPrimeFactor",
+            "request": "launch",
+            "mainClass": "mscs.largestPrimeFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datatypes",
+            "request": "launch",
+            "mainClass": "Datatypes",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Multiplication",
             "request": "launch",
             "mainClass": "Multiplication",
