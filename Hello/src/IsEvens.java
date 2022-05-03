@@ -1,10 +1,10 @@
-public class CheckEven{
+public class IsEvens{
     
     public static void main(String args[])
     {
-        System.out.println(isEvens(102));        
-        System.out.println(isEvens(20234));        
-        System.out.println(isEvens(30));        
+        System.out.println(isEvens(2032));        
+        System.out.println(isEvens(3224));        
+        System.out.println(isEvens(2464));        
     }        
 
     private static int isEvens(int n)
