@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Balanced",
+            "request": "launch",
+            "mainClass": "Balanced",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch PrimeProduct",
             "request": "launch",
             "mainClass": "PrimeProduct",
