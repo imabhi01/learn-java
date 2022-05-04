@@ -21,10 +21,10 @@ public class ConcatenatedSum {
 
     }
     public static void main(String[] args){
-        // System.out.println(getConcatenatedSum(198, 2));
-        // System.out.println(getConcatenatedSum(198, 3));
-        // System.out.println(getConcatenatedSum(2997, 3));
-        // System.out.println(getConcatenatedSum(2997, 2));
+        System.out.println(getConcatenatedSum(198, 2));
+        System.out.println(getConcatenatedSum(198, 3));
+        System.out.println(getConcatenatedSum(2997, 3));
+        System.out.println(getConcatenatedSum(2997, 2));
         System.out.println(getConcatenatedSum(13332, 4));
     }
 }

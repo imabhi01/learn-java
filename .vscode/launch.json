@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrimeProduct",
+            "request": "launch",
+            "mainClass": "PrimeProduct",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsComplete",
+            "request": "launch",
+            "mainClass": "IsComplete",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch isMagicArray",
             "request": "launch",
             "mainClass": "isMagicArray",
