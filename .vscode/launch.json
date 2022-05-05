@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fill",
+            "request": "launch",
+            "mainClass": "fill",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch HasksmallFactor",
+            "request": "launch",
+            "mainClass": "HasksmallFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch CenteredArray",
             "request": "launch",
             "mainClass": "CenteredArray",

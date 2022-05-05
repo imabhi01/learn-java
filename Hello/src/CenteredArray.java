@@ -21,6 +21,8 @@ public class CenteredArray {
         System.out.println(isCentered(new int[] {3,2,1,4,5}));
         System.out.println(isCentered(new int[] {5, 3, 3, 4, 5}));
         System.out.println(isCentered(new int[] {3, 2, 1, 4, 1}));
+        System.out.println(isCentered(new int[] {3, 2, 1, 1, 4, 6}));
+        System.out.println(isCentered(new int[] {1}));
     }
 
     public static int isCentered(int[] arr){
@@ -28,6 +30,11 @@ public class CenteredArray {
         int mid = arr.length / 2;
 
         boolean flag = true;
+
+        if(arr.length % 2 == 0){ // checking if array length is even
+            flag = false;
+            return 0;
+        }
         
         for(int i = 0; i < arr.length; i++){
             if(i != mid){
