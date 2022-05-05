@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CenteredArray",
+            "request": "launch",
+            "mainClass": "CenteredArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Balanced",
             "request": "launch",
             "mainClass": "Balanced",
