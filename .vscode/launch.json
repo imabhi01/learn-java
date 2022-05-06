@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hollow",
+            "request": "launch",
+            "mainClass": "hollow",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch fill",
             "request": "launch",
             "mainClass": "fill",
