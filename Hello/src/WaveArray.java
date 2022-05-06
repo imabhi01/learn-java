@@ -20,30 +20,40 @@ public class WaveArray {
 
     public static int wavearray(int[] arr){
         
-        boolean flag = false;
+        // boolean flag = false;
 
-        if(arr.length == 1){
-            return 1;
-        }
+        // if(arr.length == 1){
+        //     return 1;
+        // }
 
-        // Logic: Numbers in array should be in odd and even order chain without breaking.
+        // // Logic: Numbers in array should be in odd and even order chain without breaking.
 
-        for(int i = 0; i < arr.length; i++){
-            if(i < arr.length - 1){
-                if(arr[i] % 2 == 0){
-                    if(arr[i+1] % 2 != 0){
-                        flag = true;
-                    }
-                    break;
-                }else{
-                    if(arr[i+1] % 2 == 0){
-                        flag = true;
-                    }
-                    break;
-                }
+        // for(int i = 0; i < arr.length; i++){
+        //     if(i < arr.length - 1){
+        //         if(arr[i] % 2 == 0){
+        //             if(arr[i+1] % 2 != 0){
+        //                 flag = true;
+        //             }
+        //             break;
+        //         }else{
+        //             if(arr[i+1] % 2 == 0){
+        //                 flag = true;
+        //             }
+        //             break;
+        //         }
+        //     }
+        // }
+
+        // return flag == true ? 1 : 0;
+
+        // Short method
+
+        for(int i = 0; i < arr.length -1; i++){
+            if((arr[i] % 2 == 0) == (arr[i+1] % 2 == 0)){
+                return 0;
             }
         }
 
-        return flag == true ? 1 : 0;
+        return 1;
     }
 }
