@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MinDistance",
+            "request": "launch",
+            "mainClass": "MinDistance",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch hollow",
             "request": "launch",
             "mainClass": "hollow",
