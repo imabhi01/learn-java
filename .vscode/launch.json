@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MeeraFactor",
+            "request": "launch",
+            "mainClass": "MeeraFactor",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch MeeraArray",
             "request": "launch",
             "mainClass": "MeeraArray",
