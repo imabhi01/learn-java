@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountDigit",
+            "request": "launch",
+            "mainClass": "CountDigit",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeanArray",
+            "request": "launch",
+            "mainClass": "BeanArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch WaveArray",
             "request": "launch",
             "mainClass": "WaveArray",
