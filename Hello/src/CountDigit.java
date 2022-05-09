@@ -12,9 +12,10 @@
 
 public class CountDigit {
     public static void main(String[] args){
-        System.out.println(countDigit(333221, 3));
-        System.out.println(countDigit(4321, 2));
-        System.out.println(countDigit(4321, 2));
+        // System.out.println(countDigit(333221, 3));
+        // System.out.println(countDigit(4321, 2));
+        // System.out.println(countDigit(4321, 2));
+        System.out.println(countDigit(-543, 3));
     }
 
     public static int countDigit(int n, int k){
@@ -22,11 +23,22 @@ public class CountDigit {
         int count = 0;
         int rem;
 
-        while(n > 0){
+        while(n != 0){
+            
             rem = n % 10;
-            if(rem == k){
-                count++;
+            
+            if(n > 0){
+                if(rem == k){
+                    count++;
+                }
             }
+
+            if(n < 0){
+                if(Math.abs(rem) == k){
+                    count--;
+                }
+            }
+            
             n = n / 10;
         }
 
