@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MeeraArray",
+            "request": "launch",
+            "mainClass": "MeeraArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch BunkerArray",
+            "request": "launch",
+            "mainClass": "BunkerArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch CountDigit",
             "request": "launch",
             "mainClass": "CountDigit",

@@ -12,9 +12,9 @@
 
 public class CountDigit {
     public static void main(String[] args){
-        // System.out.println(countDigit(333221, 3));
-        // System.out.println(countDigit(4321, 2));
-        // System.out.println(countDigit(4321, 2));
+        System.out.println(countDigit(333221, 3));
+        System.out.println(countDigit(4321, 2));
+        System.out.println(countDigit(4321, 2));
         System.out.println(countDigit(-543, 3));
     }
 
@@ -34,7 +34,7 @@ public class CountDigit {
             }
 
             if(n < 0){
-                if(Math.abs(rem) == k){
+                if(((rem < 0) ? -rem : 0) == k){
                     count--;
                 }
             }
