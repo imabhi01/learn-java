@@ -18,8 +18,8 @@
 public class NiceArray {
     public static void main(String[] args){
         System.out.println(isNiceArray(new int[] {2, 10, 9, 3}));
-        // System.out.println(isNiceArray(new int[] {2, 2, 3, 3, 3}));
-        // System.out.println(isNiceArray(new int[] {1, 1, 1, 2, 1, 1}));
+        System.out.println(isNiceArray(new int[] {2, 2, 3, 3, 3}));
+        System.out.println(isNiceArray(new int[] {1, 1, 1, 2, 1, 1}));
         System.out.println(isNiceArray(new int[] {3, 4, 5, 7}));
     }
 
@@ -29,24 +29,22 @@ public class NiceArray {
 
         for(int i = 0 ; i < arr.length; i++){
             
-            isNiceArray = false;
-
             int num = arr[i];
-
+            
+            isNiceArray = false;
+            
             for(int j = 0; j < arr.length; j++){
                 
                 if(i == j){
                     continue;
                 }
-                
-                if((i+1) <= arr.length){
-                    if( num+1 == arr[j] || num-1 == arr[j] ){
-                        isNiceArray = true;
-                        break;
-                    }
+
+                if(num+1 == arr[j] || num-1 == arr[j]){
+                    isNiceArray = true;
+                    break;
                 }
             }
-
+            
             if(!isNiceArray){
                 return 0;
             }
