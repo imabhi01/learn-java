@@ -34,16 +34,20 @@ public class TwinArray {
                     if(isPrime(arr[j]) == 1){
                         
                         int primeTwo = arr[j];
-                        
-                        if(primeOne > primeTwo){
-                            if(primeOne - primeTwo == 2){
-                                isTwinArray = true;
-                            }
-                        }
 
-                        if(primeTwo - primeOne == 2){
+                        if(Math.abs(primeOne - primeTwo) == 2){ // if used Math.abs
                             isTwinArray = true;
                         }
+                         
+                        // if(primeOne > primeTwo){ // If Math.abs is not used
+                        //     if(primeOne - primeTwo == 2){
+                        //         isTwinArray = true;
+                        //     }
+                        // }
+
+                        // if(primeTwo - primeOne == 2){
+                        //     isTwinArray = true;
+                        // }
 
                     }
                 }
