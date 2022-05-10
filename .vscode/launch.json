@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwinArray",
+            "request": "launch",
+            "mainClass": "TwinArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch ContinuousFactor",
             "request": "launch",
             "mainClass": "ContinuousFactor",
