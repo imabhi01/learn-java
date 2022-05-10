@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NiceArray",
+            "request": "launch",
+            "mainClass": "NiceArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch NewBunkerArray",
             "request": "launch",
             "mainClass": "NewBunkerArray",
