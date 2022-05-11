@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FactorEqual",
+            "request": "launch",
+            "mainClass": "FactorEqual",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Nice",
             "request": "launch",
             "mainClass": "Nice",

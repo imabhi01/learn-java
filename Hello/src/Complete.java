@@ -11,7 +11,7 @@
 // The function signature is
 //  int isComplete (int[ ] a)
 
-public class Practice {
+public class Complete {
     public static void main(String[] args){
         System.out.println(complete(new int[] {2, 3, 2, 4, 11, 6, 10, 9, 8}));
         System.out.println(complete(new int[] {3, 5 ,7}));
@@ -33,7 +33,7 @@ public class Practice {
 
         for(int i = 0; i < arr.length; i++){
             if(arr[i] % 2 == 0){
-                if( arr[i] > 0 && arr[i] < maxEven){
+                if( arr[i] > 0 && arr[i] < maxEven){ // check all numbers are less than max Even number
                     return 1;
                 }
             }
