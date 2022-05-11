@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tripple",
+            "request": "launch",
+            "mainClass": "Tripple",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch MeeraArr",
+            "request": "launch",
+            "mainClass": "MeeraArr",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch FactorEqual",
             "request": "launch",
             "mainClass": "FactorEqual",
