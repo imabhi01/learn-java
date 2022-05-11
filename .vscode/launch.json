@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SmartNumber",
+            "request": "launch",
+            "mainClass": "SmartNumber",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch SetEqual",
             "request": "launch",
             "mainClass": "SetEqual",
