@@ -11,6 +11,8 @@ import java.util.Arrays;
 public class SmartNumber {
     public static void main(String[] args) {
         System.out.println(isSmart(11));
+        System.out.println(isSmart(22));
+        System.out.println(isSmart(8));
     }
 
     public static int isSmart(int n) {

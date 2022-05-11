@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Nice",
+            "request": "launch",
+            "mainClass": "Nice",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch SmartNumber",
             "request": "launch",
             "mainClass": "SmartNumber",
