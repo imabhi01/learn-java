@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MeeraArrary",
+            "request": "launch",
+            "mainClass": "MeeraArrary",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch FibonacciRecursive",
             "request": "launch",
             "mainClass": "FibonacciRecursive",
