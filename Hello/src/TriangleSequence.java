@@ -19,6 +19,8 @@ public class TriangleSequence {
                     System.out.print(" ");
                 }
 
+                
+
             }
 
             System.out.println('\n');
