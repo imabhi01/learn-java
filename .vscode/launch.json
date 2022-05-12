@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FibonacciSequence",
+            "request": "launch",
+            "mainClass": "FibonacciSequence",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Tripple",
             "request": "launch",
             "mainClass": "Tripple",
