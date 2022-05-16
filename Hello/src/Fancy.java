@@ -17,24 +17,20 @@ public class Fancy {
     }
 
     public static int fancyArray(int n){
+        int previousNumber = 1;
+        int nextNumber = 1;
+        int fancyNumber;
 
-        int[] fancyArray = new int[n];
-        
-        fancyArray[0] = 1;
-        fancyArray[1] = 1;
-
-        int previousNumber = fancyArray[0];
-        int nextNumber = fancyArray[1];
+        if(n == 1){
+            return 1;
+        }
 
         for(int i = 2; i < n; i++){
-            fancyArray[i] = 3 * nextNumber + 2 * previousNumber;
+            fancyNumber = 3 * nextNumber + 2 * previousNumber;
             previousNumber = nextNumber;
-            nextNumber = fancyArray[i]; 
-        }
-        
-        for(int j = 0; j < fancyArray.length; j++){
-            // System.out.print(fancyArray[j] + ", ");
-            if(n == fancyArray[j]){
+            nextNumber = fancyNumber;
+            
+            if(fancyNumber == n){
                 return 1;
             }
         }
