@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Bean",
+            "request": "launch",
+            "mainClass": "Bean",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch MeerArray",
             "request": "launch",
             "mainClass": "MeerArray",
