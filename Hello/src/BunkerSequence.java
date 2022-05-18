@@ -10,6 +10,8 @@
 public class BunkerSequence {
     public static void main(String[] args){
         System.out.println(bunkerSequence(11));
+        System.out.println(bunkerSequence(22));
+        System.out.println(bunkerSequence(8));
     }
 
     public static int bunkerSequence(int n){

@@ -37,7 +37,6 @@ public class ContinuousFactor {
             }
         }
 
-     
         return 0;
     }
 }
