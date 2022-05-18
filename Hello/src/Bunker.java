@@ -13,8 +13,8 @@ public class Bunker {
     }
 
     public static int bunker(int n){
+        int count = 1;
         for(int i = 1; i < n; i++){
-            int count = 1;
             for(int j = i+1; j < n; j++){
                 System.out.println(j + " " + i);
                 if(j-i == count){
@@ -23,6 +23,7 @@ public class Bunker {
                     break;
                 }
             }
+            
         }
         return 1;
     }
