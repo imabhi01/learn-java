@@ -8,7 +8,7 @@ public class Bunker {
     public static int bunker(int n){
         int previous = 0;
         int j = 1;
-        for(int i = 1; i <= 30; i++){
+        for(int i = 1; i <= n; i++){
             if(i - previous == j){
                 System.out.println(i);
                 previous = i;
