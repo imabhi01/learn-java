@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DualArray",
+            "request": "launch",
+            "mainClass": "DualArray",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Normal",
             "request": "launch",
             "mainClass": "Normal",
