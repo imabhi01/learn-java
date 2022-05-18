@@ -33,3 +33,4 @@ public class AllPossibilities {
         return flag == true ? 1 : 0;
     }
 }
+
