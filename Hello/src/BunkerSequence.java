@@ -8,5 +8,11 @@
 //  int isBunker (int n)
 
 public class BunkerSequence {
-    
+    public static void main(String[] args){
+        System.out.println(bunkerSequence(30));
+    }
+
+    public static int bunkerSequence(int n){
+        return 1;
+    }
 }

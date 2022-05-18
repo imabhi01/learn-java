@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CharacterCount",
+            "request": "launch",
+            "mainClass": "CharacterCount",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
+            "name": "Launch BunkerSequence",
+            "request": "launch",
+            "mainClass": "BunkerSequence",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Bunker",
             "request": "launch",
             "mainClass": "Bunker",
