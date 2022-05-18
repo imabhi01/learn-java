@@ -10,7 +10,7 @@ public class Bunker {
         int j = 1;
         for(int i = 1; i <= n; i++){
             if(i - previous == j){
-                System.out.println(i);
+                // System.out.println(i); // prints all the bunker array series upto n 
                 previous = i;
                 if(i >= 2){
                     j++;

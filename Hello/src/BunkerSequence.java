@@ -26,7 +26,7 @@ public class BunkerSequence {
             if(i - j == count){
                 j = i;
 
-                if(i == n){
+                if(i == n){ // i is the bunker array series number if it equals to n then n exists in bunker series
                     bunker = true;
                 }
 

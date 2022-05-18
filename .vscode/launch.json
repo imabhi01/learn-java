@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FactorTwoCount",
+            "request": "launch",
+            "mainClass": "FactorTwoCount",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch AllPossibilities",
             "request": "launch",
             "mainClass": "AllPossibilities",
