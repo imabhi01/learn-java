@@ -9,10 +9,33 @@
 
 public class BunkerSequence {
     public static void main(String[] args){
-        System.out.println(bunkerSequence(30));
+        System.out.println(bunkerSequence(11));
     }
 
     public static int bunkerSequence(int n){
-        return 1;
+
+        int count = 1;
+        
+        int j = 0;
+        
+        boolean bunker = false;
+
+        for(int i = 1; i <= n; i++){
+            if(i - j == count){
+                j = i;
+
+                if(i == n){
+                    bunker = true;
+                }
+
+                if(i > 1){
+                    count++;
+                }
+            }
+        }
+
+        return bunker == true ? 1 : 0;
     }
+
+   
 }
