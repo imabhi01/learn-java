@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OddHeavy",
+            "request": "launch",
+            "mainClass": "OddHeavy",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Dual",
             "request": "launch",
             "mainClass": "Dual",
