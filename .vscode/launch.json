@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sumIsPower",
+            "request": "launch",
+            "mainClass": "sumIsPower",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch Danphe",
             "request": "launch",
             "mainClass": "Danphe",
