@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StackStructure",
+            "request": "launch",
+            "mainClass": "StackStructure",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch sumIsPower",
             "request": "launch",
             "mainClass": "sumIsPower",
