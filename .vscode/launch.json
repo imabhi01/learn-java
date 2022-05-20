@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CircularQueue",
+            "request": "launch",
+            "mainClass": "CircularQueue",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch QueueStructure",
             "request": "launch",
             "mainClass": "QueueStructure",
