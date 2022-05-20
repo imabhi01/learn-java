@@ -75,7 +75,7 @@ public class StackStructure {
             System.exit(-1);
         }
 
-        System.out.println("Popping out last value from stack.");
+        System.out.println("Popping out last value from stack i.e, " + arr[top]);
 
         return arr[top--];
     }
