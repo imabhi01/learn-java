@@ -15,9 +15,8 @@ public class CircularQueue {
         cqueue.enqueue(5);
         cqueue.enqueue(6);
         cqueue.dequeue();
-        cqueue.dequeue();
         cqueue.enqueue(9);
-       
+        cqueue.enqueue(7);
         cqueue.printCQueue();
     }
 
@@ -63,23 +62,20 @@ public class CircularQueue {
         
     }
 
-    public int dequeue(){
-        int element;
+    public void dequeue(){
         if (isEmpty()) {
             System.out.println("Queue is empty");
-            return (-1);
-        } else {
-            element = arr[front];
-            if (front == rear) {
-                front = -1;
-                rear = -1;
-            } /* Q has only one element, so we reset the queue after deleting it. */
-            else {
-                front = (front + 1) % capacity;
-            }
-
-            return (element);
+            System.exit(-1);
         }
+
+        if (front == rear) {
+            front = -1;
+            rear = -1;
+        }else { /* Q has only one element, so we reset the queue after deleting it. */
+            front = (front + 1) % capacity;
+        }
+        
+        System.out.println("Deleted element "+ arr[front-1]);
 
     }
 
@@ -89,9 +85,8 @@ public class CircularQueue {
         } else {
             System.out.println("\nFront index-> " + front);
             System.out.println("Array -> ");
-            for (int i = front; i <= rear; i++)
-                System.out.print(arr[i] + "  ");
-                System.out.println("\nRear index-> " + rear);
+            for(int i = front; i <= rear; i++)
+                System.out.print(arr[i] + " ");
         }
     }
 }

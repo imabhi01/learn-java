@@ -23,8 +23,6 @@
 // return the value pointed by FRONT
 // increase the FRONT index by 1
 // for the last element, reset the values of FRONT and REAR to -1
-
-
 public class QueueStructure {
     private int arr[];
     private int front;
