@@ -22,9 +22,9 @@ public class LinkedListStructure {
         System.out.println(second);
         second.next = third;
 
-        // while(linkedList.head != null){
-        //     System.out.println(linkedList.head.value + " ");
-        //     linkedList.head = linkedList.head.next;
-        // }
+        while(linkedList.head != null){
+            System.out.println(linkedList.head.value + " ");
+            linkedList.head = linkedList.head.next;
+        }
     }
 }
