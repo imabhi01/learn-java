@@ -4,6 +4,7 @@ public class NextPerfectSquare{
         System.out.println(isSquare(36));
         System.out.println(isSquare(0));
         System.out.println(isSquare(-1));
+        System.out.println(isSquare(-1));
     }
 
     public static int isSquare(int n){
