@@ -12,7 +12,7 @@ public class MadhavArray {
     public static void main(String[] args){
         // System.out.println(madhav(new int[] {2, 1, 1}));
         System.out.println(madhav(new int[] {2, 1, 1, 4, -1, -1}));
-        // System.out.println(madhav(new int[] {6, 2, 4, 2, 2, 2, 1, 5, 0, 0}));
+        System.out.println(madhav(new int[] {6, 2, 4, 2, 2, 2, 1, 5, 0, 0}));
     }
 
     public static int madhav(int[] arr){
