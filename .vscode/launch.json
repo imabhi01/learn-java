@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumEvenOdd",
+            "request": "launch",
+            "mainClass": "SumEvenOdd",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch MiddleElement",
             "request": "launch",
             "mainClass": "MiddleElement",
