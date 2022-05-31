@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MiddleElement",
+            "request": "launch",
+            "mainClass": "MiddleElement",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch ChefScheduler",
             "request": "launch",
             "mainClass": "ChefScheduler",
