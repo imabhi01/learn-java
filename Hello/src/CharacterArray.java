@@ -13,6 +13,11 @@ public class CharacterArray {
         System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 2));
         System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 1));
         System.out.println(chararray(new char[] {'a', 'b', 'c'}, 1, 3));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, -1, -2));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 1, 0));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 3, 1));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 2, 1));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 2, 2));
     }
 
     public static java.lang.Integer chararray(char[] characters, int start, int len){
