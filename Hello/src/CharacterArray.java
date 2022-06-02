@@ -4,24 +4,31 @@
 // The function signature is:
 // char[ ] f(char[ ] a, int start, int len)
 
+import java.util.Arrays;
+
 public class CharacterArray {
     public static void main(String[] args){
-        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 2, 2));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 4));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 3));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 2));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 0, 1));
+        System.out.println(chararray(new char[] {'a', 'b', 'c'}, 1, 3));
     }
 
-    public static int chararray(char[] characters, int start, int len){
-        // System.out.println("len " + (start+characters.length-1) + " " + (len > characters.length) + " " + (start < characters.length) + " " + (start+characters.length-1 > len));
-        if(len > characters.length || start > characters.length || start+characters.length-1 < len){
-            // System.out.println("java");
-            return 0;
+    public static java.lang.Integer chararray(char[] characters, int start, int len){
+       
+        if(start+len > characters.length || len < 0 || start < 0){
+            return null;
         }
 
-        for(int i = start, j = 0; i < characters.length; i++){
-            if(j < len){
-                System.out.println(characters[i]);
-            }
+        char[] secondChar = new char[len]; 
+
+        for(int i = start, j = 0; i < len; i++){
+            secondChar[j] = characters[i];
             j++;
         }
+
+        System.out.println(Arrays.toString(secondChar));
 
         return 1;
     }
