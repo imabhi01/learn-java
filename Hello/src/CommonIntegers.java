@@ -15,7 +15,7 @@ public class CommonIntegers {
 
         if(arr1 == null || arr2 == null) return null;
 
-        if(arr1.length == 0 || arr2.length == 0) return null;
+        // if(arr1.length == 0 || arr2.length == 0) return new int[0];
         
         int[] common = new int[arr1.length];
         
