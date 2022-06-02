@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Equillibrium",
+            "request": "launch",
+            "mainClass": "Equillibrium",
+            "projectName": "java_89716e83"
+        },
+        {
+            "type": "java",
             "name": "Launch CommonIntegers",
             "request": "launch",
             "mainClass": "CommonIntegers",
