@@ -12,14 +12,16 @@
 
 public class Equillibrium {
     public static void main(String[] args){
-        // System.out.println(equillibrium(new int[]{1, 8, 3, 7, 10, 2}));
-        // System.out.println(equillibrium(new int[]{1, 2, 3, 7, 10, 4}));
+        System.out.println(equillibrium(new int[]{1, 8, 3, 7, 10, 2}));
+        System.out.println(equillibrium(new int[]{1, 2, 3, 7, 10, 4}));
         System.out.println(equillibrium(new int[]{1, 5, 3, 1, 1, 1, 1, 1, 1}));
-        // System.out.println(equillibrium(new int[]{2, 1, 1, 1, 2, 1, 7}));
+        System.out.println(equillibrium(new int[]{2, 1, 1, 1, 2, 1, 7}));
     }
 
+    // Step 1: Find leftSum and RightSum
+    // Step 2: Sum the leftElements only when right sum is greater than left sum.
+    // Step 3: Declare count variable to count how many elements sum in the leftSum makes equillibrium
     public static int equillibrium(int[] arr){
-
         int leftSum = arr[0];
         int rightSum = arr[arr.length-1];
         int count = 1; // count how many elements fullfill the requirements (reasons required)
@@ -36,10 +38,11 @@ public class Equillibrium {
             }else{
                 j--;
                 rightSum += arr[j];
-                count = i-1;
             }
 
         }
+
+        // System.out.println(leftSum + " " + rightSum + " " + count);
 
         if(leftSum == rightSum){
             return count;
